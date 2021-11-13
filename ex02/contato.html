@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css"/>
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <h1>Formulário de Contato</h1>
+    <form>
+        <hr> 
+        <label>Nome:</label>
+        <input type="text" placeholder="Digite seu nome"/>
+        <label>Sobrenome:</label>
+        <input type="text" placeholder="Digite seu sobrenome"/><br>
+        <label>Email:</label>
+        <input type="text" placeholder="user@email.com"/>
+        
+        <label for="sexo">Gênero:</label>
+        
+        <select required>
+            
+            <option value="">sexo</option>
+            <option value="Masc">Masculino</option>
+            <option value="Fem">Feminino</option>
+            <option value="PR">Prefiro não responder</option>
+            
+        </select>
+
+       
+
+        <br>
+        <label>Passatempos:</label>       
+        <input type="checkbox" id="jogos de tabuleiro" name="passatempo" value= "jogos">
+        <label for="jogos">Jogos de Tabuleiro</label>
+        <input type="checkbox" id="Cinema" name="passatempo" value= "Cinema">
+        <label for="jogos">Cinema</label>
+        <input type="checkbox" id="Esporte" name="passatempo" value= "Espote">
+        <label for="jogos">Esporte</label>
+        <input type="checkbox" id="" name="Ler" value= "Ler">
+        <label for="jogos">Ler</label>
+        <input type="checkbox" id="Musica" name="passatempo" value= "Musica">
+        <label for="jogos">Música</label>
+
+        <br>
+
+        <textarea name=”mensagem”> </textarea>
+        <br>
+        <button type="submit">Enviar</button>
+        <button type="reset">Excluir</button>    
+        
+
+    </form>
+    <p></p>
+    <a href="../ex01/index.html">Voltar</a>
+  <footer></footer>
+  
+</body>
+</html>

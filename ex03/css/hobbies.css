@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+       
+}
+/* inicio do header */
+header{
+    display: inline-block;
+    background-color: blueviolet;
+    width:100%;
+}
+
+h1{
+    color: #000;
+    text-align: center;
+    padding: 20px;
+}
+/* fim do header */
+
+.hobbies{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: deeppink;
+    height: 400px;
+    width: 100%;
+}
+
+nav{
+    display: flex;
+    justify-content:space-around ;
+    flex-direction: column;
+    width: 40%;
+}
+.hobbies-itens{
+    display: flex;
+}
+section{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.img-perfil{
+    width:80px;
+    height:80px;
+    border-radius: 100%;
+    border: 3px solid rgb(170, 10, 162);
+    
+}
+footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: indigo;
+    width: 100%;
+}
+footer a{
+    color:white;
+}
